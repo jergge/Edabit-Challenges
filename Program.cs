@@ -28,23 +28,17 @@ class Program
         //         {1, 0, 1, 0, 0, 0, 0, 1} 
         //         };
 
-        // //KnightsOnBoard.FindKnights(board);
+        // KnightsOnBoard.FindKnights(board);
 
         // Console.WriteLine (KnightsOnBoard.CannotCapture( board ));
 
-        //BinaryClock.Display(DateTime.Now.ToString("HH:mm:ss"));
+        // BinaryClock.Display(DateTime.Now.ToString("HH:mm:ss"));
 
         // int count = Kapreker.Evaluate(4726);
+        
         // Console.WriteLine("Number of itterations: " + count);
 
         //Console.WriteLine( PrimalStrength.Evaluate(5) );
 
-        List<string> list = new List<string> {"shjdkfsdf", "kshdfkjdsf", "dshfkdsfd"};
-
-        List<List<string>> lists = new List<List<string>> { list, list, list };
-
-        List<List<List<string>>> listss = new List<List<List<string>>> { lists, lists, lists };
-
-        list.Redcution(2).ConsolePrint();
     }
 }
